@@ -22,3 +22,6 @@ output "output" {
 #   value = join("::", var.string_list)
   value = contains(var.string_list, "server1")
 }
+resource "aws-string" "name" {
+  
+}
